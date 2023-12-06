@@ -1,0 +1,65 @@
+{
+    "beauty":{
+        "batch_size": 1000,
+        "bpr_lr": 0.005,
+        "dve_lr": 0.000001,
+        "bpr_weight_decay": 0.001,
+        "dve_weight_decay": 0.001,
+        "dve_update_interval": 100,
+        "dve_print_interval": 100,
+        "window_size": 0
+    },
+    "cd":{
+        "batch_size": 5000,
+        "bpr_lr": 0.001,
+        "dve_lr": 0.001,
+        "bpr_weight_decay": 0.001,
+        "dve_weight_decay": 0.001,
+        "dve_update_interval": 50,
+        "dve_print_interval": 50,
+        "load_model": false,
+        "save_model": true,
+        "weight_mode": "sample",
+        "window_size": 100,
+        "reward": "ndcg"
+    },
+    "yelp2018":{
+        "batch_size": 5000,
+        "bpr_lr": 0.001,
+        "dve_lr": 0.001,
+        "bpr_weight_decay": 0.001,
+        "dve_weight_decay": 0.001,
+        "dve_update_interval": 50,
+        "dve_print_interval": 50,
+        "load_model": false,
+        "save_model": true,
+        "weight_mode": "dot",
+        "window_size": 100,
+        "reward": "recall"
+    },
+    "lastfm":{
+        "batch_size": 10000,
+        "bpr_lr": 0.005,
+        "dve_lr": 0.001,
+        "bpr_weight_decay": 0.001,
+        "dve_weight_decay": 0.001,
+        "dve_update_interval": 10,
+        "dve_print_interval": 10,
+        "load_model": false,
+        "save_model": false,
+        "window_size": 0
+    },
+    "gowalla":{
+        "batch_size": 5000,
+        "bpr_lr": 0.001,
+        "dve_lr": 0.001,
+        "bpr_weight_decay": 0.001,
+        "dve_weight_decay": 0.001,
+        "dve_update_interval": 50,
+        "dve_print_interval": 100,
+        "load_model": false,
+        "save_model": true,
+        "weight_mode": "dot",
+        "window_size": 100
+    }
+}
